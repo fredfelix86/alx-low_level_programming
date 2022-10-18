@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print _putchar
+ * main - print putchar
  * is written by fred
  * Return: 0
  */
