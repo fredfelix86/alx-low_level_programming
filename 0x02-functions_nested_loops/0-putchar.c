@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - print putchar
+ * main - print_putchar
  * is written by fred
  * Return: 0
  */
 
-int main(void);
+int main(void)
 {
 _putchar('_');
 _putchar('p');
