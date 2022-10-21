@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
  * main - check the code
  *
@@ -9,4 +7,4 @@
  */
 int main(void)
 {
-	    print_numbe
+	print_number
