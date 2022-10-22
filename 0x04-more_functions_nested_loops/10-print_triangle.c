@@ -2,6 +2,7 @@
 
 /**
  * print_triangle - entry point
+ * Code by Fred Felix
  * Description: Prints diagonals
  * @size: size of the triangle
  * Return: void
