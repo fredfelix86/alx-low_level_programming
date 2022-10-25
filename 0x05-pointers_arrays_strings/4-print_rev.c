@@ -7,13 +7,8 @@
 
 void print_rev(char *s)
 {
-	int string = 0;
 	int i, n;
 
-	for (string = 0; s[string] != '\0'; string++)
-		;
-	for (string--; string >= 0; string--)
-		_putchar(s[string]);
 	n = 0;
 	while (s[n] != '\0')
 		n++;
