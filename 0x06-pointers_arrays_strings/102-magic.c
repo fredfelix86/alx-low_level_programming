@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - description
+ *
+ * Return: Nothing
+ */
 int main(void)
 {
 	 int n;
