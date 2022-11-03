@@ -2,15 +2,20 @@
 
 /**
  * _print_rev_recursion - print a string in reverse
- * @s: string
- * Return 0;
+ * @s: The string to reverse
+ *
+ * Return: Nothing.
  */
 
 void _print_rev_recursion(char *s)
 {
-	if (*s)
+	if (*s == '\0')
 	{
-		_putchar(*s);
-		_print_rev_recursion(s - 1);
+		return;
 	}
+
+	s++;
+	_print_rev_recursion(s);
+	s--;
+	_putchar(*s);
 }
