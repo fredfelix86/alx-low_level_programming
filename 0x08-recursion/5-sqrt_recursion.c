@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * sqrt2: Makes possible to evaluate from 1 to n
+ * square_root: Returns the natural square root of a number.
  * @a: Same number as n
  * @b: number that iterates from 1 to n
  *
@@ -9,13 +9,13 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int sqrt2(int a, int b)
+int square_root(int a, int b)
 {
 	if (b * b == a)
 		return (b);
 	else if (b * b > a)
 		return (-1);
-	return (sqrt2(a, b + 1));
+	return (square_root(a, b + 1));
 }
 /**
  * _sqrt_recursion - returns square root of n
@@ -27,5 +27,5 @@ int sqrt2(int a, int b)
 
 int _sqrt_recursion(int n)
 {
-	return (sqrt2(n, 1));
+	return (square_root(n, 1));
 }
