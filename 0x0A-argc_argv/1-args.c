@@ -1,12 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  *  main - a program that prints number of arguments
- * - @argc: variable one
- * - @argv: variable two
  *  @argc: first parameter
  *  @argv: second parameter
  *
  *  Description: prints number of arguments
- * - Return: 0
  *  Return: 0 for code success
  */
 
